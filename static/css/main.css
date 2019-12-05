@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box; 
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+}
+#main {
+  display: flex;
+  flex: 1;
+}
+#main > article {
+  flex: 1;
+  background: rgb(190, 185, 185);
+}
+
+#main > aside {
+  flex: 0 0 20vw;
+  background: beige;
+}
+header {
+  background: beige;
+  height: 20vh;
+  text-align: center;
+}
+header, footer, article, nav, aside {
+  padding: 1em;
+}
